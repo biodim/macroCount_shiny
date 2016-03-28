@@ -37,7 +37,7 @@ sudo R
 install.packages("ggplot2", lib="/usr/lib/R/library")
 
 #plyr
-install.packages("ggplot2", lib="/usr/lib/R/library")
+install.packages("plyr", lib="/usr/lib/R/library")
 ```
 
 5) now if you go to ip:3838/macroCount, everything should be working fine
