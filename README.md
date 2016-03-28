@@ -16,8 +16,6 @@ Installation
 sudo -u shiny shiny-server
 ```
 
-)
-
 3) To access the app: ip:3838/macroCount (unless you configured a different port)
 
 BUT....
@@ -47,6 +45,8 @@ install.packages("ggplot2", lib="/usr/lib/R/library")
 6) If you are hosting this in another country, you might want to change your R timezone:
 
 ```
+R
+
 #type (in R) to get directory
 R.home()
 
@@ -67,4 +67,4 @@ TZ="timezone"
 
 Save, verify in R and restart Shiny Server (just in case)
 
-7) You might also want to use apache/nginx to password protect your app, raise and issue and Ill write a small tutorial to do ths
+7) You might also want to use apache/nginx to password protect your app, raise an issue and Ill write a small tutorial to do ths
